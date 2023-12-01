@@ -1,0 +1,42 @@
+{
+  "name": "server",
+  "version": "1.0.0",
+  "description": "devhub server",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon start",
+    "lint:fix": "eslint --fix ./*.js",
+    "start:lint": "npm run lint:fix && nodemon index.js"
+  },
+  "nodemonConfig": {
+    "ext": "js,json"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/BuddingDeveloperAj/devHub_server.git"
+  },
+  "author": "ajayravi",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/BuddingDeveloperAj/devHub_server/issues"
+  },
+  "homepage": "https://github.com/BuddingDeveloperAj/devHub_server#readme",
+  "dependencies": {
+    "axios": "^1.6.2",
+    "cors": "^2.8.5",
+    "dotenv": "^16.3.1",
+    "eslint-config-prettier": "^9.0.0",
+    "express": "^4.18.2",
+    "mongodb": "^6.3.0",
+    "mongoose": "^8.0.2",
+    "nodemon": "^3.0.1",
+    "prettier": "^3.1.0"
+  },
+  "devDependencies": {
+    "eslint": "^8.54.0",
+    "eslint-config-standard": "^17.1.0",
+    "eslint-plugin-import": "^2.29.0",
+    "eslint-plugin-n": "^16.3.1",
+    "eslint-plugin-promise": "^6.1.1"
+  }
+}

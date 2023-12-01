@@ -1,0 +1,6 @@
+{
+  "events": {
+    "restart": "eslint --fix ./*.js"
+  },
+  "ext": "js,json"
+}
